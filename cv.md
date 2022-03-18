@@ -1,4 +1,5 @@
 # Alena Kaminskaya
+
 ## Contacts 
 * Location: Minsk, Belarus
 * Phone: +375 44 577-12-95
@@ -6,6 +7,7 @@
 * GitHub: knmskln
 ## About me
 >I have no experience but I am open to new knowledge and tasks.
+
 ## Skills
 * C/C++
 * SQL
