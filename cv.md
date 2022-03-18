@@ -10,7 +10,7 @@
 * C/C++
 * SQL
 * HTML/CSS(basic)
-* JS (basic)
+* Java Script (basic)
 ## Code Example
 
 ``` 
@@ -24,4 +24,4 @@ void termFunc() {
 * Courses : HTML Academy
 
 ## English
-* B2
+* B1 (Intermediate)
