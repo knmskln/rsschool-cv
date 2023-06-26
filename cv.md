@@ -11,6 +11,9 @@ Full-stack developer
 - HTML5/CSS3
 - OOP
 - Maven
+- MySQL
+- PostgreSQL
+- Git
 ## Education
 #### BSUIR
 ##### Faculty of Engineering and Economics
