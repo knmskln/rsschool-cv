@@ -14,8 +14,11 @@ Full-stack developer
 - MySQL
 - PostgreSQL
 - Git
+
 ## Education
-#### BSUIR
-##### Faculty of Engineering and Economics
-###### Information systems and technologies
+**BSUIR**
+
+Faculty of Engineering and Economics
+
+_Information systems and technologies_
 
