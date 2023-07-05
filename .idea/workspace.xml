@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4af06dc8-346e-4be6-8246-989e728f7a88" name="Changes" comment="feat: create style.css and add some styles">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GitHub-Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rs_school_js.svg" afterDir="false" />
+    <list default="true" id="4af06dc8-346e-4be6-8246-989e728f7a88" name="Changes" comment="feat: add info, header, footer, logo">
+      <change afterPath="$PROJECT_DIR$/Gmail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -50,7 +48,7 @@
       <updated>1688469426618</updated>
       <workItem from="1688469428677" duration="1248000" />
       <workItem from="1688482325731" duration="275000" />
-      <workItem from="1688559731982" duration="1900000" />
+      <workItem from="1688559731982" duration="3149000" />
     </task>
     <task id="LOCAL-00001" summary="init: create html file and add information">
       <created>1688469516960</created>
@@ -73,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688469690855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add info, header, footer, logo">
+      <created>1688562256753</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688562256753</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +100,7 @@
     <MESSAGE value="init: create html file and add information" />
     <MESSAGE value="refactor: edit README" />
     <MESSAGE value="feat: create style.css and add some styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create style.css and add some styles" />
+    <MESSAGE value="feat: add info, header, footer, logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add info, header, footer, logo" />
   </component>
 </project>
