@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4af06dc8-346e-4be6-8246-989e728f7a88" name="Changes" comment="feat: add info, header, footer, logo">
-      <change afterPath="$PROJECT_DIR$/Gmail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo.jpeg" afterDir="false" />
+    <list default="true" id="4af06dc8-346e-4be6-8246-989e728f7a88" name="Changes" comment="feat: add education and summary info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv.md" beforeDir="false" afterPath="$PROJECT_DIR$/cv.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -33,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/БУГОР/my works",
+    "last_opened_file_path": "E:/БУГОР/my works/knmskln-JSFE2023Q1",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -48,7 +47,7 @@
       <updated>1688469426618</updated>
       <workItem from="1688469428677" duration="1248000" />
       <workItem from="1688482325731" duration="275000" />
-      <workItem from="1688559731982" duration="3149000" />
+      <workItem from="1688559731982" duration="5153000" />
     </task>
     <task id="LOCAL-00001" summary="init: create html file and add information">
       <created>1688469516960</created>
@@ -78,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688562256753</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add education and summary info">
+      <created>1688563559674</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688563559674</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +107,7 @@
     <MESSAGE value="refactor: edit README" />
     <MESSAGE value="feat: create style.css and add some styles" />
     <MESSAGE value="feat: add info, header, footer, logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add info, header, footer, logo" />
+    <MESSAGE value="feat: add education and summary info" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add education and summary info" />
   </component>
 </project>

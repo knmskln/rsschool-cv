@@ -47,7 +47,11 @@ main{
 main div{
     background: pink;
 }
-
+.contact{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
 .summary{
     width: 70%;
 }
@@ -55,14 +59,17 @@ main div{
     padding: 20px;
 }
 nav ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
     list-style-type: none;
 }
-
-li{
-    color: darkred;
+.container {
+    margin: 20px;
 }
 
 .footer{
+    margin: 20px;
     display: flex;
     flex-direction: row;
     column-gap: 200px;

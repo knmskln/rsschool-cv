@@ -26,15 +26,31 @@
     </nav>
 </header>
 <main>
-    <img src="photo.jpeg" alt="photo">
-    <p>Full-Stack Developer</p>
+    <div class="contact">
+        <img src="photo.jpeg" alt="photo">
+        <div class="container">
+            <h2>Full-Stack Developer</h2>
+            <h2>Contact information</h2>
+            <ul>
+                <li>
+                    +375445771295
+                </li>
+                <li>
+                    lena.kaminskaya123@gmail.com
+                </li>
+                <li>
+                    Minsk, Belarus
+                </li>
+            </ul>
+        </div>
+    </div>
     <h2>Summary</h2>
     <div class="summary">
         <p>
             I am a fourth-year student at the Belarusian State University of Informatics and Radioelectronics,
-            majoring in Information Systems and Technologies. I have a strong passion for Java application
-            development and I am eager to pursue a career in this field while continuously expanding my
-            knowledge of new technologies. As a motivated individual, I thrive on tackling complex problems
+            majoring in Information Systems and Technologies. <br> I have a strong passion for Java application
+            development and I am eager to pursue a career in this field <br> while continuously expanding my
+            knowledge of new technologies. As a motivated individual, <br> I thrive on tackling complex problems
             and finding innovative solutions. I am excited about the opportunity to contribute as an intern or
             junior Java backend developer.
         </p>
@@ -59,8 +75,43 @@
             SEPTEMBER 2020 – JUNE 2024
         </p>
     </div>
+    <h2>Languages</h2>
+    <div>
+        <p>Russian — native | English — B1 | Polish — A2</p>
+    </div>
     <h2>Projects</h2>
+    <div>
+        <p>
+            BSUIR, OCTOBER 2022 – DECEMBER 2022 <br>
+            Car sales accounting system in car dealerships. <br>
+            This project involved developing a desktop application for managing car sales in dealerships. <br>
+            The application provided a platform for dealers to showcase their available cars, accept customer <br>
+            applications, and track sales. The source code for this project can be found on my <a href="https://github.com/knmskln/car-showroom-server">GitHub</a> <br>
+            repository.
+        </p>
+        <p>
+            BSUIR, MARCH 2023 – MAY 2023 <br>
+            Dealership sales platform. <br>
+            As part of this project, I contributed to the development of a web application designed for car <br>
+            dealerships to showcase their inventory. The platform allowed users to submit test-drive <br>
+            applications, which were then processed by managers. The source code for this project is <br>
+            available on my <a href="https://github.com/knmskln/car-dealership">GitHub</a> repository.
+        </p>
+    </div>
     <h2>Code example</h2>
+    <div>
+        <p>
+            @GetMapping("/cars/{id}") <br>
+            public ResponseEntity &lt;Car&gt; getCarById(@PathVariable("id") long id) { <br>
+            Optional&lt;Car&gt; carData = carRepository.findById(id); <br>
+                if (carData.isPresent()) { <br>
+                return new ResponseEntity<>(carData.get(), HttpStatus.OK); <br>
+                } else { <br>
+                return new ResponseEntity<>(HttpStatus.NOT_FOUND); <br>
+                } <br>
+                } <br>
+        </p>
+    </div>
 </main>
 <footer>
     <div class="footer">
@@ -70,7 +121,7 @@
         <a href="https://github.com/knmskln">
             <img src="GitHub-Logo.png" alt="github">
         </a>
-        <p>2023</p>
+        <p>&copy; 2023</p>
     </div>
 </footer>
 </body>
