@@ -1,9 +1,81 @@
+html{
+    background: hotpink;
+}
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+}
+
+header img{
+    width: 50px;
+    height: 40px;
+}
+
 h1{
-    color: blueviolet;
+    color: black;
+    width: 200px;
+    font-size: 30px;
+    margin: 0;
 }
+
 h2{
-    color: hotpink;
+    color: black;
 }
-li{
-    color: darkred;
+p{
+    margin: 20px;
+}
+main img{
+    width: 220px;
+    height: 300px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main div{
+    background: pink;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+.summary{
+    width: 70%;
+}
+.skills{
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    list-style-type: none;
+}
+.container {
+    margin: 20px;
+}
+
+.footer{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 200px;
+}
+
+.footer img{
+    width: 100px;
+    height: 90px;
 }
