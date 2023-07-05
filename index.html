@@ -105,9 +105,9 @@
             public ResponseEntity &lt;Car&gt; getCarById(@PathVariable("id") long id) { <br>
             Optional&lt;Car&gt; carData = carRepository.findById(id); <br>
                 if (carData.isPresent()) { <br>
-                return new ResponseEntity<>(carData.get(), HttpStatus.OK); <br>
+                return new ResponseEntity&lt;&gt;(carData.get(), HttpStatus.OK); <br>
                 } else { <br>
-                return new ResponseEntity<>(HttpStatus.NOT_FOUND); <br>
+                return new ResponseEntity&lt;&gt;(HttpStatus.NOT_FOUND); <br>
                 } <br>
                 } <br>
         </p>
