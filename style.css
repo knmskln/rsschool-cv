@@ -1,9 +1,42 @@
+
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+}
+
 h1{
     color: blueviolet;
+    width: 200px;
+    font-size: 30px;
 }
+
 h2{
     color: hotpink;
 }
+
 li{
     color: darkred;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.footer img{
+    width: 100px;
+    height: 100px;
 }
