@@ -1,5 +1,5 @@
 html{
-    background: hotpink;
+    background: #ef1d92;
 }
 body{
     margin: 0 auto;
@@ -45,7 +45,7 @@ main{
     justify-content: center;
 }
 main div{
-    background: pink;
+    background: #ff8fca;
 }
 .contact{
     display: flex;
