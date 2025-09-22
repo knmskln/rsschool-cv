@@ -3,8 +3,10 @@
 ## Contact info 
 1. linkedIn: https://www.linkedin.com/in/lena-kaminskaya/
 2. lena.kaminskaya123@gmail.com
+
 ## About me
 Software Engineer with 2 years of .NET backend development experience, proficient in C# and SQL. Experienced in building multi-channel systems and integrating external services while maintaining high-quality code. Continuously adopting modern best practices to drive product success.
+
 ## Skills 
 - .NET
 - C# 
