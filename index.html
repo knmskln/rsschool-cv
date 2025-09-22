@@ -8,9 +8,6 @@
 <body>
 <header>
     <nav>
-        <div class="name">
-            <h1>Alena Kaminskaya</h1>
-        </div>
         <ul>
             <li>
                 <a href="https://www.linkedin.com/in/lena-kaminskaya/">
@@ -29,6 +26,9 @@
     <div class="contact">
         <img src="asserts/photo.jpg" alt="photo">
         <div class="container">
+            <div class="name">
+                <h1>Alena Kaminskaya</h1>
+            </div>
             <h2>.NET Developer / Full-Stack Developer</h2>
             <h2>Contact information</h2>
             <ul>
@@ -50,7 +50,12 @@ to drive product success.
     </div>
     <h2>Skills</h2>
     <div class="skills">
-        .NET,C#, SQL, PostgreSQL, Git, SignalR, JWT, OOP, REST, Postman, Jira, YouTrack, Agile, Scrum, Backend Development.
+        <ul>
+            <li>Languages: C#, SQL, HTML5, CSS3, JavaScript</li>
+            <li>Technologies: SignalR, JWT, REST</li>
+            <li>Tools: Git, GitHub, Postman, Jira, YouTrack</li>
+            <li>Databases: PostgreSQL</li>
+        </ul>
     </div>
     <h2>Education</h2>
     <div class="education">
@@ -73,6 +78,7 @@ to drive product success.
             IBA Group — Unified system for multi-channel customer interaction, AUGUST 2024 — Present <br>
             A multi-platform application designed to unify customer and client management, as well as communication channels, within a single
 platform.<br>
+        </p>
         <ul>
             <li>
                 Engineered backend solutions using .NET, aligning with modern software development practices.
@@ -87,10 +93,10 @@ platform.<br>
                 Configured JWT authorization to secure application access.
             </li>
         </ul>
-        </p>
         <p>
             IBA Group — Automated dispatch control system, JANUARY 2024 — Present <br>
             The product is specifically developed to streamline and automate the dispatch control and management of passenger transport. <br>
+        </p>
             <ul>
                 <li>
                     Built backend systems with the .NET Framework, applying core programming concepts.
@@ -102,11 +108,11 @@ platform.<br>
                     Executed the upgrade and migration of existing services to .NET 8, ensuring enhanced performance and security.
                 </li>
             </ul>
-        </p>
         <p>
             IBA Group — GIS platform for visualization and analysis of big data, SEPTEMBER 2023 — JULY 2024<br>
             The project is a set ofsoftware servicesfordisplayingonamap parametric informationabout projectsandobjects of companies. <br>
-            <ul>
+        </p>
+        <ul>
                 <li>
                     Developed backend solutions using .NET
                 </li>
@@ -120,6 +126,38 @@ platform.<br>
                     Enabled real-time updates using SignalR to improve system responsiveness.
                 </li>
             </ul>
+    </div>
+    <h2>Code example</h2>
+    <div>
+        <p>
+            [Authorize]<br>
+            public class DynamicObjectHub(GenericRepository genericRepository) : Hub<br>
+            {<br>
+            public async Task SendAsync(string clientMessage)<br>
+            {<br>
+            var cancellationToken = CancellationToken.None;<br>
+            var dynamicObjectMessage = JsonConvert.DeserializeObject&lt;DynamicObjectPropertyIds&gt;(clientMessage);<br>
+            if (dynamicObjectMessage != null)<br>
+            {<br>
+            var getDynamicObjectPropertiesTask = genericRepository.ExecuteFunctionAsync(<br>
+            StoredFunction.GetDynamicObjectProperties, dynamicObjectMessage,<br>
+            typeof(DynamicObjectPropertiesOut), cancellationToken);<br>
+            var dynamicObjectPropertiesLists = ((List&lt;object&gt;)(await getDynamicObjectPropertiesTask.ConfigureAwait(false) ?? new List&lt;object&gt;())).OfType&lt;DynamicObjectPropertiesOut&gt;();<br>
+                await this.Clients.Caller.SendAsync("ReceiveMessage", dynamicObjectPropertiesLists, cancellationToken).ConfigureAwait(false);<br>
+                }<br>
+            }<br>
+        }<br>
+        </p>
+    </div>
+    <h2>Projects</h2>
+    <div>
+        <p>
+            BSUIR, MARCH 2023 – MAY 2023 <br>
+            Dealership sales platform. <br>
+            As part of this project, I contributed to the development of a web application designed for car <br>
+            dealerships to showcase their inventory. The platform allowed users to submit test-drive <br>
+            applications, which were then processed by managers. The source code for this project is <br>
+            available on my <a href="https://github.com/knmskln/car-dealership">GitHub</a> repository.
         </p>
     </div>
 </main>
