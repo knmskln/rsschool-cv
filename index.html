@@ -2,137 +2,167 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CV Kaminskaya</title>
+    <title>Alena Kaminskaya</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/csharp.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </head>
 <body>
-<header>
-    <nav>
-        <div class="name">
-            <h1>Alena Kaminskaya</h1>
-        </div>
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/lena-kaminskaya/">
-                    <img src="linked.png" alt="linkedin">
-                </a>
-            </li>
-            <li>
-                <a href="https://mail.google.com/mail/u/0/#inbox">
-                    <img src="Gmail.png" alt="gmail">
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
+<nav>
+    <hr/>
+    <ul>
+        <li><a href="#summary">summary</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#work-experience">work experience</a></li>
+        <li><a href="#education">education</a></li>
+        <li><a href="#languages">languages</a></li>
+        <li><a href="#code">code example</a></li>
+    </ul>
+    <hr/>
+</nav>
 <main>
-    <div class="contact">
-        <img src="photo.jpeg" alt="photo">
-        <div class="container">
-            <h2>.NET Developer / Full-Stack Developer</h2>
-            <h2>Contact information</h2>
+    <section id="summary">
+        <img src="assets/photo.jpg" alt="photo"/>
+        <div class="summary__info">
+            <h1>Alena Kaminskaya</h1>
+            <div id="location">
+                <span>Wroclaw, Poland</span>
+                <img src="assets/pl.svg" alt="pl" class="country"/>
+            </div>
+            <span>Email: <a href="mailto:lena.kaminskaya123@gmail.com">lena.kaminskaya123@gmail.com</a></span>
+            <span>LinkedIn: <a href="https://linkedin.com/in/lena-kaminskaya">Alena Kaminskaya</a></span>
+            <p>Software Engineer with 2 years of .NET backend development experience, proficient in C# and SQL.
+                Experienced in building multi-channel systems and integrating external services while maintaining
+                high-quality code. Continuously adopting modern best practices
+                to drive product success.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>SKILLS</h2>
+        <hr/>
+        <ul class="skills__list">
+            <li>.NET</li>
+            <li>C#</li>
+            <li>SQL</li>
+            <li>PostgreSQL</li>
+            <li>Git</li>
+            <li>SignalR</li>
+            <li>JWT</li>
+            <li>OOP</li>
+            <li>REST</li>
+            <li>Postman</li>
+            <li>Jira</li>
+            <li>YouTrack</li>
+            <li>Agile</li>
+            <li>Scrum</li>
+            <li>Backend Development</li>
+        </ul>
+    </section>
+    <section id="work-experience">
+        <h2>WORK EXPERIENCE</h2>
+        <hr/>
+        <div class="work-experience__position">
+            <h3>IBA Group — Unified system for multi-channel customer interaction</h3>
+            <h4>Aug 2024 — Present</h4>
+            <span class="work-experience__position-name">.Net Developer</span>
+            <p>A multi-platform application designed to unify customer and client management, as well as communication
+                channels, within a single
+                platform.</p>
             <ul>
-                <li>
-                    lena.kaminskaya123@gmail.com
-                </li>
-                <li>
-                    Wroclaw, Poland
+                <li>Engineered backend solutions using .NET, aligning with modern software development practices.</li>
+                <li>Designed and implemented PostgreSQL database structures to support robust data management.</li>
+                <li>Integrated external services to enhance system functionality.</li>
+                <li>Configured JWT authorization to secure application access.</li>
+            </ul>
+        </div>
+        <div class="work-experience__position">
+            <h3>IBA Group — Automated dispatch control system</h3>
+            <h4>Jan 2024 — Jan 2025</h4>
+            <span class="work-experience__position-name">.Net Developer</span>
+            <p>The product is specifically developed to streamline and automate the dispatch control and management of
+                passenger transport, with a
+                primary focus on optimizing the operations of a dispatch center.</p>
+            <ul>
+                <li>Built backend systems with the .NET Framework, applying core programming concepts.</li>
+                <li>Implemented a project localization solution to support diverse user requirements.</li>
+                <li>Executed the upgrade and migration of existing services to .NET 8, ensuring enhanced performance and
+                    security.
                 </li>
             </ul>
         </div>
-    </div>
-    <h2>Summary</h2>
-    <div class="summary">
-        <p>
-            Software Engineer with 2 years of .NET backend development experience, proficient in C# and SQL. Experienced in building multi-channel systems and integrating external services while maintaining high-quality code. Continuously adopting modern best practices
-to drive product success.
-        </p>
-    </div>
-    <h2>Skills</h2>
-    <div class="skills">
-        .NET,C#, SQL, PostgreSQL, Git, SignalR, JWT, OOP, REST, Postman, Jira, YouTrack, Agile, Scrum, Backend Development.
-    </div>
-    <h2>Education</h2>
-    <div class="education">
-        <p>
-            BSUIR, Minsk — bachelor's degree <br>
-            SEPTEMBER 2020 — JUNE 2024
-        </p>
-        <p>
-            Lyceum BSU, Minsk <br>
-            SEPTEMBER 2018 — JUNE 2020
-        </p>
-    </div>
-    <h2>Languages</h2>
-    <div>
-        <p>Russian — native | English — B1+ | Polish — A2</p>
-    </div>
-    <h2>Work experience</h2>
-    <div>
-        <p>
-            IBA Group — Unified system for multi-channel customer interaction, AUGUST 2024 — Present <br>
-            A multi-platform application designed to unify customer and client management, as well as communication channels, within a single
-platform.<br>
-        <ul>
-            <li>
-                Engineered backend solutions using .NET, aligning with modern software development practices.
-            </li>
-            <li>
-                Designed and implemented PostgreSQL database structures to support robust data management.
-            </li>
-            <li>
-                Integrated external services to enhance system functionality.
-            </li>
-            <li>
-                Configured JWT authorization to secure application access.
-            </li>
+        <div class="work-experience__position">
+            <h3>IBA Group — GIS platform for visualization and analysis of big data</h3>
+            <h4>Sep 2023 — Jul 2024</h4>
+            <span class="work-experience__position-name">.Net Developer</span>
+            <p>The project is a set of software services for displaying on a map parametric information about projects
+                and objects of companies, including
+                displaying the states of objects in real time.</p>
+            <ul>
+                <li>Developed backend solutions using .NET</li>
+                <li>Designed PostgreSQL database components to support high-volume data operations.</li>
+                <li>Configured and automated the generation of documentation to streamline project updates.</li>
+                <li>Enabled real-time updates using SignalR to improve system responsiveness.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="education">
+        <h2>EDUCATION</h2>
+        <hr/>
+        <h3>BSUIR, Minsk</h3>
+        <h4>Sep 2020 — Jun 2024</h4>
+        <span class="education__degree">bachelor's degree, Information Systems and Technologies</span>
+    </section>
+    <section id="languages">
+        <h2>LANGUAGES</h2>
+        <hr/>
+        <ul class="languages__list">
+            <li><img src="assets/en.svg" alt="en" class="country"/><span>English — B1+</span></li>
+            <li><img src="assets/pl.svg" alt="pl" class="country"/><span>Polish — A2</span></li>
         </ul>
-        </p>
-        <p>
-            IBA Group — Automated dispatch control system, JANUARY 2024 — Present <br>
-            The product is specifically developed to streamline and automate the dispatch control and management of passenger transport. <br>
-            <ul>
-                <li>
-                    Built backend systems with the .NET Framework, applying core programming concepts.
-                </li>
-                <li>
-                    Implemented a project localization solution to support diverse user requirements.
-                </li>
-                <li>
-                    Executed the upgrade and migration of existing services to .NET 8, ensuring enhanced performance and security.
-                </li>
-            </ul>
-        </p>
-        <p>
-            IBA Group — GIS platform for visualization and analysis of big data, SEPTEMBER 2023 — JULY 2024<br>
-            The project is a set ofsoftware servicesfordisplayingonamap parametric informationabout projectsandobjects of companies. <br>
-            <ul>
-                <li>
-                    Developed backend solutions using .NET
-                </li>
-                <li>
-                    Designed PostgreSQL database components to support high-volume data operations.
-                </li>
-                <li>
-                    Configured and automated the generation of documentation to streamline project updates
-                </li>
-                <li>
-                    Enabled real-time updates using SignalR to improve system responsiveness.
-                </li>
-            </ul>
-        </p>
-    </div>
+    </section>
+    <section id="code">
+        <h2>CODE EXAMPLE</h2>
+        <hr/>
+        <pre>
+            <code class="language-csharp">
+  [Authorize]
+  public class DynamicObjectHub(GenericRepository genericRepository): Hub  {
+
+    public async Task SendAsync(string clientMessage)  {
+
+      var cancellationToken = CancellationToken.None;
+      var dynamicObjectMessage = JsonConvert.DeserializeObject &lt;DynamicObjectPropertyIds&gt;
+      (clientMessage);
+      if (dynamicObjectMessage != null)  {
+
+        var getDynamicObjectPropertiesTask = genericRepository.ExecuteFunctionAsync(
+          StoredFunction.GetDynamicObjectProperties, dynamicObjectMessage,
+          typeof (DynamicObjectPropertiesOut), cancellationToken);
+        var dynamicObjectPropertiesLists = ((List&lt;object&gt;)(await getDynamicObjectPropertiesTask.ConfigureAwait(false) ?? new List&lt;object&gt;
+          ())).OfType&lt;DynamicObjectPropertiesOut&gt;
+        ();
+        await this.Clients.Caller.SendAsync("ReceiveMessage", dynamicObjectPropertiesLists,
+          cancellationToken).ConfigureAwait(false);
+      }
+    }
+  }
+            </code>
+        </pre>
+    </section>
+    <footer>
+        <hr/>
+        <div class="footer__content">
+            <p>&copy; 2025. All rights reserved.</p>
+            <div class="footer__content-links">
+                <a href="https://rs.school/courses/short-track" target="_blank"><img src="assets/rs_school_js.svg"
+                                                                                     alt="rsschool"/></a>
+                <a href="https://github.com/knmskln" target="_blank"><img src="assets/github.svg"
+                                                                          alt="github logo"/></a>
+            </div>
+        </div>
+    </footer>
 </main>
-<footer>
-    <div class="footer">
-        <a href="https://rs.school">
-            <img src="rs_school_js.svg" alt="logo">
-        </a>
-        <a href="https://github.com/knmskln">
-            <img src="GitHub-Logo.png" alt="github">
-        </a>
-        <p>&copy; 2025</p>
-    </div>
-</footer>
 </body>
 </html>

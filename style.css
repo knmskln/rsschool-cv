@@ -1,81 +1,127 @@
-html{
-    background: #ef1d92;
-}
-body{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+:target:before {
+    content: "";
+    display: block;
+    height: 51px;
+    margin-top: -51px;
 }
 
-header nav{
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-    column-gap: 100px;
+html {
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 
-header img{
-    width: 50px;
-    height: 40px;
-}
-
-h1{
-    color: black;
-    width: 200px;
-    font-size: 30px;
+body {
     margin: 0;
 }
 
-h2{
-    color: black;
+hr {
+    border-style: none none solid;
 }
-p{
-    margin: 20px;
+
+a {
+    color: inherit;
 }
-main img{
-    width: 220px;
-    height: 300px;
+
+a:hover {
+    text-decoration: none;
 }
-main{
+
+section {
+    margin-bottom: 48px;
+}
+
+nav, main {
+    max-width: 920px;
+    width: 100%;
+    margin: auto;
+}
+
+nav {
+    position: sticky;
+    top: -1px;
+    background: white;
+}
+
+nav > ul {
+    padding: 0;
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+#summary {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 24px;
+}
+
+#summary > img {
+    width: 240px;
+}
+
+#summary > .summary__info {
     display: flex;
     flex-direction: column;
+    gap: 12px;
+}
+
+#location {
+    display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 6px
 }
-main div{
-    background: #ff8fca;
+
+.country {
+    height: 18px;
 }
-.contact{
+
+#skills > .skills__list {
+    padding: 0;
+    list-style-type: none;
     display: flex;
-    flex-direction: row;
-    column-gap: 50px;
+    flex-wrap: wrap;
+    gap: 12px;
 }
-.summary{
-    width: 70%;
+
+#skills > .skills__list > li {
+    padding: 6px;
+    background-color: lightgray;
 }
-.skills{
-    padding: 20px;
+
+#work-experience > .work-experience__position > .work-experience__position-name {
+    font-style: italic;
 }
-nav ul{
-    display: flex;
-    flex-direction: row;
-    column-gap: 30px;
+
+#education > .education__degree {
+    font-style: italic;
+}
+
+#languages > .languages__list {
+    padding: 0;
     list-style-type: none;
 }
-.container {
-    margin: 20px;
-}
 
-.footer{
-    margin: 20px;
+#languages > .languages__list > li {
     display: flex;
-    flex-direction: row;
-    column-gap: 200px;
+    align-items: center;
+    gap: 6px
 }
 
-.footer img{
-    width: 100px;
-    height: 90px;
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+
+.footer__content-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer__content-links > a > img {
+    height: 32px;
 }
