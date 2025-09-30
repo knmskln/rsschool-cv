@@ -95,6 +95,10 @@ nav > ul {
     font-style: italic;
 }
 
+#project > .project__item > .project__item-name {
+    font-style: italic;
+}
+
 #education > .education__degree {
     font-style: italic;
 }
